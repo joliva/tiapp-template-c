@@ -1,0 +1,149 @@
+{
+	"id": "TiAppTemplate.001",
+	"version": "1.0",
+	"minimumVersion": "1.0",
+	"_configurationUrl": "http://olivalabs.com/app/app.json",
+	"legal": {
+		"copyright": "Copyright ‌© 2013 John Oliva",
+		"terms": "http://www.appcelerator.com/legal/terms-conditions/",
+		"privacy": ""
+	},
+	"settings": {
+		"share": "Check out this great TiAppTemplate content",
+		"notifications": {
+			"enabled": false,
+			"provider": "",
+			"key": "",
+			"secret": ""
+		},
+		"colors": {
+			"primary": "#327B9F",
+			"secondary": "#569BBE",
+			"text":	"#FFF"
+		},
+		"useSlideMenu": false
+	},
+	"_manifest": [
+		"http://localhost/TiAppTemplate/app/logo.png",
+		"http://localhost/TiAppTemplate/app/logo@2x.png"
+	],
+	"tabs": [
+		{
+			"title": "Text",
+			"heading": "Titanium Alloy App Template",
+			"text": "Based off the ChariTi framework by Mathew Cosgrove.",
+			"type": "text",
+			"image": "home"
+		},
+		{
+			"title": "Podcast",
+			"feed": "http://feeds.feedburner.com/TEDTalks_audio",
+			"type": "podcast",
+			"image": "audio",
+			"cache": 1440
+		},
+		{
+			"title": "Facebook",
+			"userid": "20594753592",
+			"type": "facebook",
+			"image": "facebook",
+			"cache": 10
+		},
+		{
+			"title": "Blog",
+			"feed": "http://blog.olivalabs.com/?feed=rss2",
+			"type": "article",
+			"image": "news1",
+			"cache": 120
+		},
+		{
+			"title": "Flickr",
+			"username": "39494278@N04",
+			"apiKey": "e067644d8af6a8a9f2f36f8abbe32720",
+			"type": "flickr",
+			"image": "photo1",
+			"cache": 1440
+		},
+		{
+			"title": "Events",
+			"userid": "7304307941",
+			"type": "event",
+			"image": "event2",
+			"cache": 1440
+		},
+		{
+			"title": "Vimeo",
+			"username": "appcelerator",
+			"type": "vimeo",
+			"image": "video4",
+			"cache": 1440
+		},
+		{
+			"title": "YouTube",
+			"username": "appcelerator",
+			"type": "youtube",
+			"image": "video5",
+			"cache": 1440
+		},
+		{
+			"title": "Share",
+			"templates": [
+				{
+					"title": "Help Wanted",
+					"text": ""
+				}
+			],
+			"type": "share",
+			"image": "social4"
+		}
+	],
+	"examples": [
+		{
+			"title": "Map",
+			"points": [
+				{
+					"latitude": "28.24560022171899",
+					"longitude": "-80.72571516036987",
+					"pinColor": "Ti.Map.ANNOTATION_RED",
+					"title": "Place A",
+					"subTitle": "This is a subtitle"
+				},
+				{
+					"latitude": "28.24704626421908",
+					"longitude": "-80.73882579803467",
+					"pinColor": "Ti.Map.ANNOTATION_RED",
+					"title": "Place B",
+					"subTitle": ""
+				},
+				{
+					"latitude": "28.228406881099808",
+					"longitude": "-80.73399782180786",
+					"pinColor": "Ti.Map.ANNOTATION_RED",
+					"title": "Place C",
+					"subTitle": "This is a subtitle"
+				}
+			],
+			"type": "map",
+			"image": "map2"
+		},
+		{
+			"title": "News",
+			"feed": "http://developer.appcelerator.com/blog/feed",
+			"type": "article",
+			"image": "news1",
+			"cache": 120
+		},
+		{
+			"title": "PDF",
+			"url": "http://www.appcelerator.com.s3.amazonaws.com/pdf/casestudy_nbc.pdf",
+			"type": "pdf",
+			"image": "book1"
+		},
+		{
+			"title": "Web",
+			"url": "https://github.com/joliva/tiapp_template_c",
+			"type": "web",
+			"image": "home"
+		}
+	]
+}

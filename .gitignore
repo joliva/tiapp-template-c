@@ -1,3 +1,11 @@
-# Build folder and log file
-build/
 build.log
+build
+npm-debug.log
+tmp
+/build
+/.settings
+/CBUILDALL
+/CRUN
+/app/lib/data_wwp/
+/.pydevproject
+/CBUILD

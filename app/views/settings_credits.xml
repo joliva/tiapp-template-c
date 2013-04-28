@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.chariti.navigationBar" id="NavigationBar" image="logo.png" />
+		
+		<ScrollView id="content">
+			<Label text="This application is based largely on the wonderful ChariTi app (http://chariti.mobi) developed by Mathew Cosgrove and many other talented developers. Please see the Chariti website for further information on that project and those credited with its creation." />
+			<Label text="Changes to adapt this into a personal Alloy application template are by John Oliva." />
+		</ScrollView>
+	</View>
+</Alloy>

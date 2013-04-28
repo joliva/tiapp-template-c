@@ -1,0 +1,22 @@
+<Alloy>
+	<View id="Wrapper">
+		<Require type="widget" src="com.chariti.navigationBar" id="NavigationBar" image="logo.png" />
+		
+		<ScrollView id="content">
+			<TableView id="legal_table" height="90dp">
+				<TableViewRow id="terms" title="Terms of Service" hasChild="true" />
+				<TableViewRow id="privacy" title="Privacy Policy" hasChild="true" />
+			</TableView>
+			
+			<TableView id="logs_table" height="90dp">
+				<TableViewRow id="logs" title="Send Application Logs" hasChild="true" />
+				<TableViewRow id="acknowledgements" title="Acknowledgements" hasChild="true" />
+			</TableView>
+			
+			<Label id="copyright" />
+			<Label id="version" />
+			<Label text="This application was created using an open source framework freely available at:\nhttp://github.com/joliva/tiapp_template_c" />
+			<Label text="ChariTi ‌© 2013 John Oliva" />
+		</ScrollView>
+	</View>
+</Alloy>
