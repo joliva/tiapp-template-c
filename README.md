@@ -1,4 +1,4 @@
 tiapp_template_c
 ================
 
-Titanium Alloy application template based off ChariTi application.
+Titanium Alloy application template adapted from https://github.com/mcongrove/ChariTi.
